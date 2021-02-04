@@ -1,5 +1,5 @@
 # matt
-
+# type 'python reverse.py STRING' and this will reverse that string
 import sys
 
 args = sys.argv[1:]
@@ -11,4 +11,4 @@ else:
     for a in args:
         new_args.append(a[::-1])
 
-print("----REVERSED STRING----\n"+ (" ".join(new_args)))
+print("----Reversed String----\n"+ (" ".join(new_args)))
