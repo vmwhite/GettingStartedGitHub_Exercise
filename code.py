@@ -15,4 +15,4 @@ string = ""
 for i in data:
     string += dictionary[i]
 
-print(string)
+#print(string)
